@@ -1,4 +1,4 @@
-@baseUrl = https://8080-marcoweb-j220242a1-yt7qltmjn3v.ws-us115.gitpod.io
+@baseUrl = https://8080-dennisfaria-aulaarquite-39sl050p7jw.ws-us115.gitpod.io/
 
 ###
 GET {{baseUrl}}/alunos
@@ -8,19 +8,19 @@ POST {{baseUrl}}/alunos
 Content-Type: application/json
 
 {
-    "nome": "Marco Carvalho"
+    "nome": "Dennis Farias"
 }
 
 ###
 GET {{baseUrl}}/alunos/2
 
 ###
-PUT {{baseUrl}}/alunos/1
+PUT {{baseUrl}}/alunos/2
 Content-Type: application/json
 
 {
-    "nome": "Nome de Teste"
+    "nome": ""
 }
 
 ###
-DELETE {{baseUrl}}/alunos/1
+DELETE {{baseUrl}}/alunos/2
